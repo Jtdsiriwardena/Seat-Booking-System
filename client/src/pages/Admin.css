@@ -1,0 +1,131 @@
+
+.admin-dashboard-unique {
+    display: flex;
+}
+
+.sidebar-unique {
+    width: 250px;
+    background-color: #0e3866;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.sidebar-logo-unique {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.sidebar-nav-unique {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar-link-unique {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-link-unique:hover {
+    background-color: #1a73e8;
+}
+
+.sidebar-logout-button-unique {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: auto;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.sidebar-logout-button-unique:hover {
+    background-color: #c9302c;
+}
+
+
+.table-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #edecec;
+}
+
+
+.admin-title {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.admin-table th {
+    background-color: #0f3b64;
+    color: white;
+}
+
+.admin-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.admin-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.admin-confirm-button {
+    background-color: #50b555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100px;
+}
+
+.admin-confirm-button:hover {
+    background-color: #45a049;
+}
+
+.admin-no-bookings {
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+}
+
+.admin-search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

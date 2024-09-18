@@ -1,0 +1,80 @@
+
+.view-bookings-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f7fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-logo {
+    width: 150px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    opacity: 0.8;
+}
+
+.bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bookings-table thead {
+    background-color: #12365c;
+    color: white;
+    text-align: left;
+}
+
+.bookings-table th, .bookings-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bookings-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.bookings-table tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+}
