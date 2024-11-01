@@ -159,10 +159,7 @@ const Attendance = () => {
                         Intern Attendance
                     </Link>
                 </nav>
-                <button className="ad-sidebar-logout-button-unique">
-                    <FontAwesomeIcon icon={faSignOutAlt} className="ad-sidebar-icon" />
-                    Log Out
-                </button>
+               
             </aside>
             <div className="add-holiday-content-unique p-6">
                 <div className="attendance-area">
